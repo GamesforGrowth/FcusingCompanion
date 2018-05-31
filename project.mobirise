@@ -20,13 +20,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#5c86f4",
         "#104de9",
         "#476ccc",
         "#3869df",
         "#86baad",
         "#346aee",
-        "#022786",
-        "#7496ea"
+        "#022786"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -159,7 +159,7 @@
             "bgImage": "@PROJECT_PATH@/assets/images/daylight-fashion-footwear-891451-2000x1335.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#476ccc",
+            "bgColor": "#5c86f4",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
@@ -244,7 +244,7 @@
               "vertical-align": "bottom"
             },
             ".heading-text": {
-              "color": "#ffffff",
+              "color": "#000000",
               "font-size": "22px",
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
@@ -259,10 +259,12 @@
               "font-size": "18px"
             },
             ".card-text": {
-              "color": "#ffffff"
+              "color": "#000000",
+              "font-family": "'Source Sans Pro', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700"
             },
             ".card-title": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           }
         },

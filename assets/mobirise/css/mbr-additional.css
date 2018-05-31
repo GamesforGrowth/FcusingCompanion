@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
 
 
@@ -13,11 +12,11 @@ input,
 textarea,
 .mbr-company .list-group-text,
 .mbr-section-text {
-  font-family: 'Libre Franklin', serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Libre Franklin', serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .alert,
 h1,
@@ -31,10 +30,10 @@ h6,
 .mbr-map [data-state-details],
 .mbr-price,
 .mbr-section-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .btn {
-  font-family: 'Libre Franklin', serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .mbr-footer-content h1,
 .mbr-footer .mbr-contacts h1,
@@ -48,7 +47,7 @@ h6,
 .mbr-footer .mbr-contacts p strong,
 .mbr-footer-content strong,
 .mbr-footer .mbr-contacts strong {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .btn:not(.btn-social) {
   border-radius: 30px;
@@ -62,22 +61,22 @@ h6,
 .mbr-cards .card-subtitle,
 .mbr-testimonial .card-block,
 .mbr-section-subtitle {
-  font-family: 'Libre Franklin', serif;
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
 }
 .mbr-author-name {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .mbr-author-desc {
-  font-family: 'Libre Franklin', serif;
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
 }
 .mbr-plan-title {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
-  font-family: 'Libre Franklin', serif;
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
 }
 .bg-primary {
@@ -408,9 +407,6 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #000;
 }
-.scrollToTop_wraper {
-  display: none;
-}
 /* DirectM */
 a {
   color: #74a3c7;
@@ -440,7 +436,7 @@ a:hover {
 .features12 .card .mbr-iconfont,
 .features14 .card .mbr-iconfont,
 .features16 .card .mbr-iconfont {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 /*msg-box1*/
 .msg-box1 ul li:before {
@@ -493,7 +489,7 @@ a:hover {
 }
 /* Gallery */
 .mbr-gallery-filter ul li {
-  font-family: 'Libre Franklin', serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .mbr-gallery-filter li {
   color: #74a3c7;

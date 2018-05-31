@@ -1,0 +1,700 @@
+{
+  "settings": {
+    "name": "Site-04-30_1220",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#5aac98",
+        "secondaryColor": "#2b4484",
+        "successColor": "#1E7C3A",
+        "infoColor": "#74a3c7",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Libre Franklin",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#104de9",
+        "#476ccc",
+        "#3869df",
+        "#86baad",
+        "#346aee",
+        "#022786",
+        "#7496ea"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.7.2",
+    "uniqCompNum": 18,
+    "versionPublish": "4.7.6",
+    "screenshot": "screenshot.png",
+    "siteFonts": []
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "1.3rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.408rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "#124ad9"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "#124ad9"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#698de9"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#5c83e7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#698de9"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#124ad9"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#124ad9!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": false,
+            "transparent": true,
+            "bgColor": "#698de9",
+            "fontSize": "1.3",
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#124ad9"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-7"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "contentAlign": "center",
+            "showArrow": true,
+            "showFeatures": true,
+            "columns": "2",
+            "showFeaturesImages": true,
+            "iconsBgColor": "#100efa",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/daylight-fashion-footwear-891451-2000x1335.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#476ccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#dfd9ca",
+            "overlayOpacity": "0"
+          },
+          "title": "Focusing Companion",
+          "text": "before you force yourself towards your destination<i>&nbsp;</i>or surrender to circumstances, <br>Meet with a Focusing Companion. <br>Let a Focusing Companion guide you to know your experience deeply. <br>Combine your mind and body wisdom to find clear ways around you. <br>Make your issues collaborate with you.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"index.html#pricing-table3-8\" data-toolbar=\"-mbrBtnMove\">Check Our Offers</a>   ",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "bookmark",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title1": "What is Focusing",
+          "subtitle1": "Awesome",
+          "text1": "Focusing is a process aimed to uncover new insights regarding a situation, challenge, or a wicked problem someone face. <br><br>It was developed by the psychotherapist Eugene Gendlin from the University of Chicago. The Focusing process offers a unique way to establish a non-judging and an open approach to base a fruitful relationship with a challenge affecting people life. <br><br>Focusing emphasises that each person has an implicit inner-knowledge about any life situation. The sense of your implicit inner-knowledge regarding your whole challenge might be revealed by using your power of awareness. To discover new insights about your challenge,  you are encouraged to slow down and to listen very carefully to what happened inside you after your mind has finished telling you what is already known.&nbsp;&nbsp;<br><br> ",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-secondary\" href=\"index.html#features22-6\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "file",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 40
+            }
+          },
+          "title2": "What is Focusing Companionship",
+          "subtitle2": "Awesome",
+          "text2": "The Focusing Partnership is a unique event that assists the Focuser to reach comfortably and assuredly his goals. The Focusing Partnership meeting aims for you to achieve clarity, emotional calmness and a new sense of self-confident to act. As a Focuser, you might sense that a Focusing session goes well when you gradually detects that your challenge collaborates with you as in a relationship. It is an experience that is slowly built up by the Focusing process and create a shift or comfort toward the Focuser inner sense of his challenge.  There is no rush in a Focusing Session as the Focusing Session is designed for you to find the right and appropriate words for describing your challenge. The more the Focuser manifest his capability to slowly and gently describing his feelings and thoughts towards his situation, so he is able to sense a shift in his inner-sense of his challenge and have new insights about his situation.&nbsp;<br><br><br>",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-secondary\" href=\"index.html#features2-a\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "file",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": "40"
+            }
+          },
+          "title3": "Who is Focusing Companion",
+          "subtitle3": "Awesome",
+          "text3": "A Focusing partner is a trusted companion who guide the Focuser in the Focusing session. A focusing partner helps the Focuser trough reflections, suggestions and invitations to understand an issue better. The Focusinf partner uses his Focusing skills and experience to encourage the Focuser to use his mind and his body wisdom as he describes his situation. The focusing partner first aim is to help the Focuser to find meaning by deepening the Focuser awareness to his body responses to new words and images articulated by the Focuser.<br><br><br><br> ",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-secondary\" href=\"index.html#features21-e\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "devices",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "#100efa",
+              "border-color": "#100efa"
+            },
+            ".mbr-table-cell": {
+              "vertical-align": "bottom"
+            },
+            ".heading-text": {
+              "color": "#ffffff",
+              "font-size": "22px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "text-align": "center"
+            },
+            ".heading-title": {
+              "color": "#ffffff",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".btn": {
+              "font-size": "18px"
+            },
+            ".card-text": {
+              "color": "#ffffff"
+            },
+            ".card-title": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#476ccc"
+          },
+          "text": "<p>A Focusing partner is a trusted companion who guide the Focuser in the Focusing session. A focusing partner helps the Focuser trough reflections, suggestions and invitations to understand an issue better. The Focusinf partner uses his Focusing skills and experience to encourage the Focuser to use his mind and his body wisdom as he describes his situation. The focusing partner first aim is to help the Focuser to find meaning by deepening the Focuser awareness to his body responses to new words and images articulated by the Focuser.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-h",
+          "_styles": {
+            "P": {
+              "color": "#fffffd"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showIcons": true,
+            "firstType": "hidden",
+            "secondType": "",
+            "thirdType": "primary",
+            "fourthType": "",
+            "bgColor1": "#455c97",
+            "bgColor2": "#39937c",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/tabs1.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#7496ea",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Pricing Table",
+          "subtitle": "Pricing table with four columns and solid color background.",
+          "title1": "Standart",
+          "title2": "Buisness",
+          "title3": "Premium",
+          "title4": "Ultimate",
+          "price1": "35",
+          "price2": "65",
+          "price3": "90",
+          "price4": "150",
+          "period1": "$/monthly",
+          "period2": "$/monthly",
+          "period3": "$/monthly",
+          "period4": "$/monthly",
+          "description1": "Two months free",
+          "description2": "One month free",
+          "description3": "Two weeks free",
+          "description4": "One week free",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Create a responsive, touch-swipe slideshow with Mobirise bootstrap slider. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout.</li><li class=\"list-group-item\">Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.</li><li class=\"list-group-item\">5 GB bandwidth</li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Mobirise horizontal navigation menu collapses on devices to a single-icon mobile menu, also know as \"hamburger menu\", for a flawless mobile experience for all visitors.</li><li class=\"list-group-item\">Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.</li><li class=\"list-group-item\">10 GB bandwidth</li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Create a responsive, touch-swipe slideshow with Mobirise bootstrap slider. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout.</li><li class=\"list-group-item\">Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Mobirise horizontal navigation menu collapses on devices to a single-icon mobile menu, also know as \"hamburger menu\", for a flawless mobile experience for all visitors.</li><li class=\"list-group-item\">Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.</li><li class=\"list-group-item\">20 GB bandwidth</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">DEMO</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table3",
+          "_anchor": "pricing-table3-8",
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": "2",
+            "iconsBgColor": "#0048ff",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#104de9",
+            "containerColor2": "#5aac98",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#616161",
+            "overlayOpacity": 0.8
+          },
+          "title": "What is Focusing",
+          "text": "The practice of Focusing allows us to tap into our body wisdom and knowledge. Each situation we encounter in our daily life influences our conscious mind and our deep unconscious. Our unconscious encompasses all our past experiences stored as emotional memory, feelings and senses in our bodies. Focusing allows us to learn from this infinite stored wisdom.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "#top",
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "title1": "Focusing is a process and a skill anyone can enjoy",
+          "subtitle1": "Awesome",
+          "text1": "Focusing can be done by yourself or in a Focusing partnership. In either way,  A six steps process developed by Eugene Gendlin from Chicago University is implemented. &nbsp;After watching people who failed to benefit from psychotherapy, Eugene Gendlin observed what people do during a therapy session that does help them to be healed. He gathered is findings to a set of six steps process and had started to teach it as a set of skills of awareness.&nbsp;",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "down",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "index.html#features2-a",
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "title2": "The Focusing process",
+          "subtitle2": "Awesome",
+          "text2": "The six stages Focusing process offer simple instructions for accessing our body wisdom. Over the years this process has been further developed to a set of methodologies aiming to help the focuser to listen to the firm connection between mind and body. In a focusing session, we let the process to be slowly unfolded and new content to be revealed. The Focusing partner might give the Focuser suggestions and invitations aiming to create a safe and nonjudgmental environment.  Ths kind of environment allows to focuser to talk from inside about what comes up when he put his awareness on his body and mind.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "devices",
+              "link": "https://mobirise.com",
+              "color": "#fff",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "What is Mobirise",
+          "subtitle3": "Awesome",
+          "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch-swipe",
+              "link": "https://mobirise.com",
+              "color": "#fff",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features22",
+          "_anchor": "features22-6",
+          "_styles": {
+            ".card .mbr-iconfont": {
+              "background": "#0048ff",
+              "border-color": "#0048ff"
+            },
+            ".heading-text": {
+              "color": "#ffffff"
+            },
+            ".heading-title": {
+              "color": "#ffffff"
+            },
+            ".card-text": {
+              "color": "#ffffff"
+            },
+            ".card-title": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "left",
+            "columns": 3,
+            "showFeaturesImages": true,
+            "iconsBgColor": "#124ad9",
+            "showFeaturesTitles": true,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#7496ea",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fffffd",
+            "overlayOpacity": 0.95
+          },
+          "title": "Who is a Focusing partner",
+          "text": "At the end of Focusing process, I aim for you to see more clearly new ways around you, and feel that your issues as they exist do not entirely prevent you from moving forward. Hopefully, you will know that you might untangle the tangled one, and even change even slightly the unchangeable. You might be able to be in presence with an overwhelming feeling.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "Me as your Focusing Companion",
+          "subtitle1": "Awesome",
+          "text1": "As a focusing partner, I am certified by the International  Focusing Institute In New-york. I have been trained by Ann Weiser Cornel in Inner Relationship Focusing. &nbsp;As a focusing partner, I am certified by the International  Focusing Institute In New-york. I have been trained by Ann Weiser Cornel in Inner Relationship Focusing. I have been privileged to experience myself  Focusing and have guided other people in their Focusing journey.<br><br><br><br><br> ",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "responsive",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title2": "How working with Focusing Companion might help you",
+          "subtitle2": "Awesome",
+          "text2": "In a Focusing Partnership, you listen very carefully to how your body senses the issue or the situation challenging you. You will learn how to feel safe near these body senses associated with the whole situation affecting you. While you listen to and feel these body senses, you might start describing these senses. At the start, as you describe these senses most naturally, you may begin to feel comfortable even with your most challenging experiences. This place, where you are comfortable with a challenging situation, open the door to sense new understandings and see new ways forward.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "setting",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "What am I wish to achieve as you &nbsp;Focusong Comanion?",
+          "subtitle3": "Awesome",
+          "text3": "During a Focusing process, I wish you to have a sense of being safe to be curious about what you value and how much you is it vital for you.  Being safe and curious will allow you to accept everything about your self. Your understanding that you can speak freely, hold yourself doing nothing, and sense your mind will give the power to articulate your values your capabilities. I hope you will experience that you can listen to what you believe are your weaknesses in finding out how they whish to collaborate with you to achieve your goals.&nbsp;<br><br>",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "size": 40,
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features2",
+          "_anchor": "features2-a",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "#124ad9",
+              "border-color": "#124ad9"
+            },
+            ".heading-title": {
+              "color": "#fffffd"
+            },
+            ".card-text": {
+              "color": "#0048ff"
+            },
+            ".card-title": {
+              "color": "#022786"
+            },
+            ".heading-text": {
+              "color": "#fffffd"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgicon": true,
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "contentAlign": "center",
+            "columns": "2",
+            "iconsBgColor": "#86baad",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#346aee",
+            "containerColor2": "#8acdbc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#616161",
+            "overlayOpacity": 0.8
+          },
+          "bgicon": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "website-theme",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title": "Focusing Companionship",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a><a data-app-btn=\"true\" class=\"btn btn-lg btn-empty\" href=\"https://mobirise.com\">Or view demo</a>",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "color": "#fffffd"
+            }
+          },
+          "title1": "What is Mobirise",
+          "subtitle1": "Awesome",
+          "text1": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "responsive",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "color": "#fffffd"
+            }
+          },
+          "title2": "What is Mobirise",
+          "subtitle2": "Awesome",
+          "text2": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "devices",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "What is Mobirise",
+          "subtitle3": "Awesome",
+          "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch-swipe",
+              "link": "https://mobirise.com",
+              "color": "#222",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "subtitle4": "Awesome",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features21",
+          "_anchor": "features21-e",
+          "_styles": {
+            ".card .mbr-iconfont": {
+              "background": "#86baad",
+              "border-color": "#86baad"
+            },
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".card-title": {
+              "color": "#fffffd"
+            },
+            ".heading-title": {
+              "color": "#fffffd"
+            },
+            ".card-text": {
+              "color": "#fffffd"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

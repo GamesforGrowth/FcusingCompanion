@@ -12,12 +12,12 @@
         "infoColor": "#74a3c7",
         "warningColor": "#FFD785",
         "dangerColor": "#FF9685",
-        "titleFont": "Oxygen",
-        "subtitleFont": "Libre Franklin",
-        "textFont": "Libre Franklin",
+        "titleFont": "PT Sans",
+        "subtitleFont": "PT Sans",
+        "textFont": "PT Sans",
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
       },
       "additionalSetColors": [
         "#5c86f4",

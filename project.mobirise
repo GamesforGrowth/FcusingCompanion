@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
     "uniqCompNum": 18,
-    "versionPublish": "4.7.6",
+    "versionPublish": "4.7.7",
     "screenshot": "screenshot.png",
     "siteFonts": []
   },
@@ -148,7 +148,7 @@
             "showButtons": true,
             "contentAlign": "center",
             "showArrow": true,
-            "showFeatures": false,
+            "showFeatures": true,
             "columns": "2",
             "showFeaturesImages": true,
             "iconsBgColor": "#100efa",
@@ -241,7 +241,7 @@
               "border-color": "#100efa"
             },
             ".mbr-table-cell": {
-              "vertical-align": "middle"
+              "vertical-align": "bottom"
             },
             ".heading-text": {
               "color": "#000000",
